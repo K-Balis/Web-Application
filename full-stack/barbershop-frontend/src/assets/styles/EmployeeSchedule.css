@@ -1,0 +1,116 @@
+.schedule-container{
+  border-top: 1px solid #dddddd62;
+  min-height: 100vh;
+}
+
+.schedule-header{
+  font-family: 'Gramers Light';
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+.schedule-hor-line{
+  border: 0;
+  border-top: 2px solid #000;
+  margin-top: 10px;
+  width: 90%;
+  transform: translateX(5%);
+}
+
+.schedule-select-option{
+  font-family: "Gramers Light";
+  padding: 10px 40px;
+  border: 1px solid;
+  border-radius: 8px;
+  transform: translateX(100%);
+  margin-bottom: 20px;
+}
+
+.date-select-option{
+  font-family: "Gramers Light";
+  padding: 7px 40px;
+  border: 1px solid;
+  border-radius: 8px;
+  transform: translateX(100%);
+  margin-bottom: 20px;
+}
+
+.dates-start-select-option{
+  font-family: "Gramers Light";
+  padding: 7px 40px;
+  border: 1px solid;
+  border-radius: 8px;
+  transform: translateX(100%);
+  margin-bottom: 20px;
+}
+
+.dates-end-select-option{
+  font-family: "Gramers Light";
+  padding: 7px 40px;
+  border: 1px solid;
+  border-radius: 8px;
+  transform: translateX(105%);
+  margin-bottom: 20px;
+}
+
+.employee-select-option{
+  font-family: "Gramers Light";
+  padding: 10px 40px;
+  border: 1px solid;
+  border-radius: 8px;
+  transform: translateX(105%);
+  margin-bottom: 20px;
+}
+
+.filter-button{
+  font-family: "Gramers Light";
+  transform: translateX(145%);
+  padding: 7px 40px;
+  border-radius: 8px;
+  border: 1px solid;
+  background-color: white;
+}
+
+.schedule-add-button{
+  font-family: "Gramers Light";
+  position: absolute;
+  right: 0;
+  transform: translateX(-130%);
+  margin-top: 5px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 8px 40px;
+  background-color: white;
+}
+
+.schedule-table{
+  width: 85%;
+  margin: 0 auto;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+
+.schedule-table-head{
+  font-family: "Gramers Light";
+  letter-spacing: 1px;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #dddddd62;
+}
+
+.schedule-table-data{
+  font-family: "Gramers Light";
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.schedule-delete-button{
+  margin-left: 10px;
+  border: none;
+  background-color: white;
+}

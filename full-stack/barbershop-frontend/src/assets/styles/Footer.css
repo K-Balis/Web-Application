@@ -1,0 +1,9 @@
+.footer {
+  background: white;
+  color: black;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: 'Gramers Light';
+  letter-spacing: 1px;
+  padding: 15px;
+}

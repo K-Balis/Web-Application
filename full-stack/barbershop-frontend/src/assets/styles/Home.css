@@ -1,0 +1,45 @@
+.home-main {
+  position: relative;
+  text-align: center;
+  border-top: 1px solid #dddddd62;
+}
+
+.home-bg-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.010);
+  padding: 40px;
+  border-radius: 8px;
+  color: white;
+}
+
+.welcome-message {
+  font-family: 'Gramers Light';
+  font-style: italic;
+  font-size: 10rem;
+  margin: 0 0 20px;
+}
+
+.reservation-button {
+  background: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-family: 'Gramers Light';
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.reservation-button:hover {
+  background: #f0f0f0;
+}

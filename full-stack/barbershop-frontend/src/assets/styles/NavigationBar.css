@@ -1,0 +1,25 @@
+.home-navbar {
+  background: white;
+  text-align: center;
+  font-family: 'Gramers Light';
+  padding-bottom: 25px;
+}
+
+.navbar-list {
+  display: inline-flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-list li {
+  cursor: pointer;
+}
+
+.navbar-links {
+  border: none;
+  background-color: white;
+  letter-spacing: 2px;
+  color: #121212f0;
+}
